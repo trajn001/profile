@@ -1,0 +1,86 @@
+body{
+  background-color: azure;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  line-height: largenormal;
+  font-weight: 300;
+  text-align: center;
+}
+
+img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+h1{
+  color: blueviolet;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: x-large;
+line-height: normal
+}
+
+.btn{background-color: rgb(38, 38, 77);
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none
+}
+
+.white-box{
+background-color: beige;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 35px;
+padding: 50px;
+box-shadow: inset;
+border: 1px solid rgb(164, 37, 37)
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  color: rgb(153, 113, 113);
+  font-size: 60px;
+  margin: 0 20px;
+}
+
+.list-inline > li:hover {
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .white-box {
+    width: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .white-box {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .white-box {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
